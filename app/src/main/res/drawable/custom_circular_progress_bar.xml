@@ -1,0 +1,20 @@
+<!-- res/drawable/custom_circular_progress_bar.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@android:id/background">
+        <shape>
+            <solid android:color="@color/blockBG" />
+            <corners android:radius="100dp" />
+        </shape>
+    </item>
+    <item android:id="@android:id/progress">
+        <clip>
+            <shape>
+                <gradient
+                    android:startColor="#FF8C00"
+                    android:endColor="#FF6347"
+                    android:angle="90"/>
+                <corners android:radius="100dp" />
+            </shape>
+        </clip>
+    </item>
+</layer-list>

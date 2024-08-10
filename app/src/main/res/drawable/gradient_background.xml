@@ -1,0 +1,6 @@
+<!-- res/drawable/gradient_background.xml -->
+<gradient xmlns:android="http://schemas.android.com/apk/res/android"
+    android:angle="45"
+    android:startColor="#6A0D91"
+    android:endColor="#D60077"
+    android:type="linear"/>
